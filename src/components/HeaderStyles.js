@@ -57,6 +57,7 @@ const HeaderLeft = styled.div`
 `;
 
 const HeaderAvatar = styled(Avatar)`
+
   cursor: pointer;
 
   :hover {
