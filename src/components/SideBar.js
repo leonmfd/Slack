@@ -11,6 +11,7 @@ import AppsIcon from "@mui/icons-material/Apps";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ArchiveIcon from '@mui/icons-material/Archive';
 import SidebarOption from "./SidebarOption";
 import AddIcon from "@mui/icons-material/Add";
 import { db } from "../firebase";
@@ -38,9 +39,11 @@ function SideBar() {
       <SidebarOption Icon={PeopleAltIcon} title="People & userGroups" />
       <SidebarOption Icon={AppsIcon} title="Apps" />
       <SidebarOption Icon={FileCopyIcon} title="File browser" />
+      <SidebarOption Icon={ArchiveIcon} title="Archive" />
       <SidebarOption Icon={ExpandLessIcon} title="Show less" />
       <hr />
       <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
+
       <hr />
       <SidebarOption Icon={AddIcon} addChannelOption title="Add channel" />
 
